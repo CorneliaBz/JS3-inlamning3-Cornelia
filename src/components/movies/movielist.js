@@ -27,7 +27,8 @@ const MoviesList = () => {
         const tempArray = [...movieArray];
         tempArray.splice(index, 1);
         localStorage.setItem('Movies', JSON.stringify(tempArray));
-
+        
+        //inte den finaste lösningen men fick inte rätt på det med useEffect eller forceUpdate.
         window.location.reload();
 
       } else {
