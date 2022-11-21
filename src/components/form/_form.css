@@ -1,0 +1,45 @@
+.forms{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 50px 120px;
+}
+
+.movieForm{
+    margin: 50px 300px;
+}
+
+form{
+    border-radius: 0px 0px 50px 0px;
+    padding: 50px;
+    text-align: center;
+}
+
+input{
+    padding: 12px 20px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type="password"], input[type="email"], input[type="text"], input[type="submit"]{
+    width: 80%;
+}
+
+input[type="submit"]{
+    background-color: #b82222;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    cursor:pointer;
+    width: 80%;
+}
+
+input[type="submit"]:hover{
+    background-color: #731d1d;
+}
+
+input:focus {
+    outline: none;
+}

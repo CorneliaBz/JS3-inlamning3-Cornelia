@@ -1,0 +1,93 @@
+.movieContainer{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie{
+    display: flex;
+    border: 1px solid;
+
+    text-align: center;
+    margin: 10px 10px;
+
+    background-color: rgb(207, 205, 205);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+.movie h4{
+    max-height: 90px;
+    padding: 5px 2px 0px 2px;
+    color: rgb(48, 47, 47);
+    font-size: 15px;
+}
+
+.movie h1{
+    color: rgb(19, 18, 18);
+    padding: 10px 5px;
+    width: 90%;
+    font-size: 20px;
+}
+
+.imgbox {
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+.imgbox img {
+    width: 170px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.movieInfo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 5px;
+    border: 2px solid rgb(26, 25, 25);
+    border-left: 7px dotted rgb(32, 32, 32);
+}
+
+.readMoreButton{
+    padding: 10px 40px;
+    margin: 30px 5px 10px 5px;
+
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(26, 23, 23);
+    border: 1px solid black;
+    outline: none;
+    cursor:pointer;
+}
+
+.readMoreButton:hover{
+    background-color: rgb(185, 18, 18);
+    border: 1px solid rgb(185, 18, 18);
+}
+
+.h1MovieTitle{
+    font-size: 25px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.deleteButton{
+    margin-left: 270px;
+    margin-top: 5px;
+    color: rgb(19, 18, 18);
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}

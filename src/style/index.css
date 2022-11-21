@@ -1,0 +1,8 @@
+@import './App.css';
+@import "../components/header/_header.css";
+@import "../components/footer/_footer.css";
+@import "../components/form/_form.css";
+@import "../components/modal/_modal.css";
+@import "../components/nav/_nav.css";
+@import "../components/movies/_movielist.css";
+@import "../components/pages/movies/_movieitem.css"
